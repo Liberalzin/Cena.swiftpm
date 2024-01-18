@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class CashModel: ObservableObject {
+    
+    @Published var value: Float = 0
+    
+}

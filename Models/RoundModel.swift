@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class RoundModel {
+    
+    var cards: [CardModel]
+    var numOfRound: Int
+    
+    init(cards: [CardModel], numOfRound: Int) {
+        self.cards = cards
+        self.numOfRound = numOfRound
+    }
+    
+}

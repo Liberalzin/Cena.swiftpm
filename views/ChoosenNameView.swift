@@ -23,10 +23,13 @@ struct ChoosenNameView: View {
                 RoundedRectangle(cornerRadius: 40.0)
                     .frame(width: 642, height: 383)
                     .foregroundStyle(.gray)
-                Text("texto")
-                    .frame(width: 600, height: 350)
+                VStack {
+                    Text("Seu objetivo é atingir 100% de popularidade com a maior quantidade de dinheiro possível. Sua empresa será no ramo da moda, faça investimentos pra que ela possa crescer.")
+                        .frame(width: 600, height: 350)
+                        
+                }
                     
-                
+
             }
             .padding()
             Button{
@@ -36,7 +39,7 @@ struct ChoosenNameView: View {
                     RoundedRectangle(cornerRadius: 20.0)
                         .frame(width: 642, height: 94)
                         .foregroundStyle(.black)
-                    Text("texto")
+                    Text("Abrir Empresa")
                         .font(.title)
                         .foregroundStyle(.white)
                 }

@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+class CashViewModel {
+    
+    @StateObject var model = CashModel()
+    
+}

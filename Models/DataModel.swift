@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class DataModel: ObservableObject {
+    
+    @Published var sustentability: Float = 0
+    @Published var popularity: Float = 0
+    
+}

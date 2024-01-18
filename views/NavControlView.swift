@@ -14,7 +14,7 @@ struct NavControlView: View {
             ChoosenNameView(shownextview: $showview)
         }
         else {
-            Home()
+            HomeView()
         }
     }
 }

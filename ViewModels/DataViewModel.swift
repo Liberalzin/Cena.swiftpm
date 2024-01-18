@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+class DataViewModel {
+    
+    @StateObject var model = DataModel()
+    
+}
